@@ -16,7 +16,7 @@ Provided more time, I would have also made some predictions and found relationsh
 ### Conclusions
 Based on my exploratory analysis, there is a strong positive correlation between the steps I take and the calories burned. By using heat maps, I was also able to explore the relationship between the days of the week and my sleep quality. These heat maps showed that I get more deep sleep and REM sleep later in the week.
 
-Lastly, I built a linear regression model with 4 features that predicts the calories burned with an R2 of 0.889. Since R2 tells us the goodness of fit of a logistic regression, I wanted to see if the FitBit data I collected could be used to create a better predictive algorithm. Thus a larger R-squared value of 0.889 meant that my data would fit the linear regression model better.
+Lastly, I built a linear regression model with 4 features that predicts the calories burned with an R2 of 0.889. Since R2 tells us the goodness of fit of a logistic regression, I wanted to see if the FitBit data I collected could be used to create a better predictive algorithm. Thus a larger R-squared value of 0.889 meant that my data would fit the linear regression model better. To my surprise, there is a slightly negative correlation between the calories burned and my step count as seen by the -0.0299 relationship between calories burned and steps. However, we also know that the p-value is 0.239, which is really high. Thus we cannot make any conclusion about the relationship between steps and calories burned if we have a significance level of 5%.
 
 ### Visuals Explained
 #### Line Plots of Steps vs. Time:
